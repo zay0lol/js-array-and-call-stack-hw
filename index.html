@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo"></h1>
+    <h1 id="demo1"></h1>
+</body>
+<script>
+     var fruits=["mango","peach","leechi","orange","kiwi"]
+     fruits.pop()
+     fruits.push("lemon")
+     document.getElementById("demo").innerHTML=fruits.join(" ")
+    console.log(fruits.join(" "))
+    function add(a,b){
+       return a+b
+    }
+    function average(a,b){
+        return add(a,b)/2
+    }
+    let result= average(10,20)
+    document.getElementById("demo1").innerHTML=result
+</script>
+</html>
